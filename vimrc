@@ -12,6 +12,6 @@ syntax on
 filetype on
 filetype indent on
 filetype plugin on
-colorscheme Railscasts
+colorscheme Candy
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
