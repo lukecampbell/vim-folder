@@ -5,6 +5,10 @@ set shiftwidth=4
 map <S-Enter> i<CR><Esc>
 map <F2> :NERDTree <CR>
 map <F3> <C-W><left>q
+map <F4> :colorscheme Candy
+map <F5> :colorscheme Eclipse
+map <F6> :colorscheme VYLight
+map <F7> :colorscheme Railscasts
 set nocompatible
 set cul
 call pathogen#infect()
