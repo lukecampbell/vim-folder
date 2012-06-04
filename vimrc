@@ -19,3 +19,4 @@ set cul
 colorscheme Candy
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
+let g:syntastic_check_on_open=1
