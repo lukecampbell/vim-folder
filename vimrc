@@ -18,6 +18,19 @@ map <F8> :colorscheme BClear<CR>
 set nocompatible
 set cul
 colorscheme Candy
+let mapleader = ","
+inoremap jj <ESC>
+nnoremap / /\v
+vnoremap / /\v
+set ignorecase
+set smartcase
+set gdefault
+set incsearch
+set showmatch
+set hlsearch
+nnoremap <leader><space> :noh<cr>
+nnoremap <tab> %
+vnoremap <tab> %
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
