@@ -14,6 +14,7 @@ map <F4> :colorscheme Candy<CR>
 map <F5> :colorscheme Eclipse<CR>
 map <F6> :colorscheme VYLight<CR>
 map <F7> :colorscheme Railscasts<CR>
+map <F8> :colorscheme BClear<CR>
 set nocompatible
 set cul
 colorscheme Candy
