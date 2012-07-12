@@ -15,9 +15,10 @@ map <F5> :colorscheme Eclipse<CR>
 map <F6> :colorscheme VYLight<CR>
 map <F7> :colorscheme Railscasts<CR>
 map <F8> :colorscheme BClear<CR>
+map <F9> :colorscheme Molokai
 set nocompatible
 set cul
-colorscheme Candy
+colorscheme Molokai
 let mapleader = ","
 inoremap jj <ESC>
 nnoremap / /\v
@@ -29,6 +30,11 @@ set incsearch
 set showmatch
 set hlsearch
 nnoremap <leader><space> :noh<cr>
+nnoremap <leader>q :q<cr>
+nnoremap <leader>s :Gwrite<cr>
+nnoremap <leader>- 80a-<ESC>
+nnoremap <leader>w :wq<cr>
+nnoremap <leader># i#<ESC>80a-<ESC>yypko
 nnoremap <tab> %
 vnoremap <tab> %
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
