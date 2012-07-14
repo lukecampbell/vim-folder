@@ -28,7 +28,10 @@ set smartcase
 set gdefault
 set incsearch
 set showmatch
+set nu
 set hlsearch
+set laststatus=2
+set statusline=%f\ %y\ %{fugitive#statusline()}\ [%l,%c]
 nnoremap <leader><space> :noh<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :Gwrite<cr>
