@@ -37,6 +37,7 @@ nnoremap <leader>q :q<cr>
 nnoremap <leader>s :Gwrite<cr>
 nnoremap <leader>- 80a-<ESC>
 nnoremap <leader>w :wq<cr>
+nnoremap <leader>c :cq<cr>
 nnoremap <leader># i#<ESC>80a-<ESC>yypko
 nnoremap <tab> %
 vnoremap <tab> %
