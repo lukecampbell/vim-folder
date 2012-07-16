@@ -43,3 +43,9 @@ vnoremap <tab> %
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
+
+
+" ctrl+p options
+let g:ctrlp_map='<Leader>p'
+" let g:ctrlp_user_command = 'git ls-files'
+let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files', 'find %s -type f']

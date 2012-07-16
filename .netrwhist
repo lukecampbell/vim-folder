@@ -1,7 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/luke/Documents/Dev/code/coi-services'
 let g:netrw_dirhist_2='/Users/luke/Documents/Dev/code/coverage-model'
 let g:netrw_dirhist_3='/Users/luke/Documents/Dev/code/coi-services'
 let g:netrw_dirhist_4='/Users/luke/Documents/Dev/code/coverage-model'
 let g:netrw_dirhist_5='/Users/luke/Documents/Dev/code/coi-services'
+let g:netrw_dirhist_6='/Users/luke/Documents/Dev/code/pyon'
+let g:netrw_dirhist_7='/Users/luke/Documents/Dev/code/coi-services'
