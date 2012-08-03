@@ -15,7 +15,7 @@ map <F5> :colorscheme Eclipse<CR>
 map <F6> :colorscheme VYLight<CR>
 map <F7> :colorscheme Railscasts<CR>
 map <F8> :colorscheme BClear<CR>
-map <F9> :colorscheme Molokai
+map <F9> :colorscheme Molokai<CR>
 set nocompatible
 set cul
 colorscheme Molokai
@@ -39,6 +39,13 @@ nnoremap <leader>- 80a-<ESC>
 nnoremap <leader>w :wq<cr>
 nnoremap <leader>c :cq<cr>
 nnoremap <leader># i#<ESC>80a-<ESC>yypko
+nnoremap <leader>k v/,<cr>hc
+nnoremap <leader>l v/'<cr>hc
+nnoremap <leader>L v/"<cr>hc
+nnoremap <leader>o :set nowrap<cr>
+nnoremap <leader>O :set wrap<cr>
+nnoremap <leader>b :set relativenumber<cr>
+nnoremap <leader>B :set nu<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
