@@ -13,3 +13,6 @@
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown
+[submodule "bundle/cocoa"]
+	path = bundle/cocoa
+	url = https://github.com/msanders/cocoa.vim
