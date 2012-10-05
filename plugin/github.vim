@@ -5,3 +5,4 @@ function Github() range
 
     execute "!github -f " . expand("%") . " -l " . a:firstline . " -n " . a:lastline
 endfunction
+com! -range Github call Github()
