@@ -16,13 +16,17 @@ map <F6> :colorscheme VYLight<CR>
 map <F7> :colorscheme Railscasts<CR>
 map <F8> :colorscheme BClear<CR>
 map <F9> :colorscheme Molokai<CR>
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <C-[> :rightbelow split<CR>:exec("tag ".expand("<cword>"))<CR>
 set nocompatible
 set cul
 colorscheme Molokai
 let mapleader = ","
 inoremap jj <ESC>
-nnoremap / /\v
-vnoremap / /\v
+inoremap <C-h> <ESC>^i
+inoremap <C-l> <ESC>A
+"nnoremap / /\v
+"vnoremap / /\v
 set ignorecase
 set smartcase
 set gdefault
@@ -32,22 +36,28 @@ set nu
 set hlsearch
 set laststatus=2
 set statusline=%f\ %y\ %{fugitive#statusline()}\ [%l,%c]
+nnoremap \] gt
+nnoremap \[ gT
+nnoremap <C-h> ^
+nnoremap <C-l> $
 nnoremap <leader><space> :noh<cr>
 nnoremap <leader>q :q<cr>
 nnoremap <leader>s :Gwrite<cr>
 nnoremap <leader>- 80a-<ESC>
 nnoremap <leader>w :wq<cr>
 nnoremap <leader>c :cq<cr>
-nnoremap <leader># i#<ESC>80a-<ESC>yypko
-nnoremap <leader>k v/,<cr>hc
-nnoremap <leader>l v/'<cr>hc
-nnoremap <leader>L v/"<cr>hc
+nnoremap <leader>k vf,hc
+nnoremap <leader>l vf'hc
+nnoremap <leader>L vf"hc
+nnoremap <leader>h :hid<cr>
 nnoremap <leader>o :set nowrap<cr>
 nnoremap <leader>O :set wrap<cr>
 nnoremap <leader>b :set relativenumber<cr>
+nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>bn :bn<cr>
 nnoremap <leader>bd :bd<cr>
 nnoremap <leader>B :set nu<cr>
+nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
