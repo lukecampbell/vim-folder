@@ -1,8 +1,4 @@
-function Github() range
-    for linenum in range(a:firstline, a:lastline)
-        let curr_line = getline(linenum)
-    endfor
-
-    execute "!github -f " . expand("%") . " -l " . a:firstline . " -n " . a:lastline
+function! Github(line1, line2)
+    execute "!github -f " . expand("%") . " -l " . a:line1 . " -n " . a:line2
 endfunction
-com! -range Github call Github()
+com! -range Github call Github(<line1>, <line2>)
