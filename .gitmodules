@@ -25,3 +25,6 @@
 [submodule "bundle/vim-colors-solarized"]
 	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/jim"]
+	path = bundle/jim
+	url = https://github.com/davidhalter/jedi-vim.git
