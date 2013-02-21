@@ -69,6 +69,8 @@ let g:syntastic_check_on_open=1
 let g:ctrlp_map='<Leader>p'
 " let g:ctrlp_user_command = 'git ls-files'
 let g:ctrlp_user_command = ['.git/', 'cd %s && git ls-files', 'find %s -type f']
+" Use Ag in lieu of ack
+let g:ackprg = 'ag --nogroup --nocolor --column'
 " Search for selected text, forwards or backwards.
 vnoremap <silent> * :<C-U>
   \let old_reg=getreg('"')<Bar>let old_regtype=getregtype('"')<CR>
