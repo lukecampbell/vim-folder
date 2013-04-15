@@ -22,6 +22,7 @@ set cul
 colorscheme Molokai
 let mapleader = ","
 inoremap jj <ESC>
+inoremap jl <C-r>"
 inoremap <C-h> <ESC>^i
 inoremap <C-l> <ESC>A
 "nnoremap / /\v
