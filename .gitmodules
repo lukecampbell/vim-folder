@@ -34,9 +34,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
-[submodule "bundle/vim-multiple-cursors"]
-	path = bundle/vim-multiple-cursors
-	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
