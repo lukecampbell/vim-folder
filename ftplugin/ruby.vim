@@ -350,3 +350,5 @@ endfunction
 "
 
 " vim: nowrap sw=2 sts=2 ts=8:
+set tabstop=2
+set shiftwidth=2
