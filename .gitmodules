@@ -40,3 +40,6 @@
 [submodule "bundle/vim-ragtag"]
 	path = bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag
+[submodule "bundle/rename"]
+	path = bundle/rename
+	url = https://github.com/danro/rename.vim
