@@ -43,6 +43,3 @@
 [submodule "bundle/rename"]
 	path = bundle/rename
 	url = https://github.com/danro/rename.vim
-[submodule "bundle/surround"]
-	path = bundle/surround
-	url = https://github.com/vim-scripts/surround.vim
