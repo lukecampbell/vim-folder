@@ -50,7 +50,7 @@ nnoremap <leader>c :cq<cr>
 nnoremap <leader>k vf,hc
 nnoremap <leader>l vf'hc
 nnoremap <leader>L vf"hc
-nnoremap <leader>h :hid<cr>
+nnoremap <leader>h :Hexmode<cr>
 nnoremap <leader>o :set nowrap<cr>
 nnoremap <leader>O :set wrap<cr>
 nnoremap <leader>b :set relativenumber<cr>
@@ -85,3 +85,5 @@ vnoremap <silent> # :<C-U>
   \gvy?<C-R><C-R>=substitute(
   \escape(@", '?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
   \gV:call setreg('"', old_reg, old_regtype)<CR>
+
+command Wipe bufdo bd
