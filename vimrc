@@ -59,6 +59,7 @@ nnoremap <leader>bn :bn<cr>
 nnoremap <leader>bd :bd<cr>
 nnoremap <leader>B :set nu<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
+nnoremap <leader>N :windo diffoff<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 command! Wipe bufdo bd
