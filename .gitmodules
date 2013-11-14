@@ -58,9 +58,3 @@
 [submodule "bundle/vim-opencl"]
 	path = bundle/vim-opencl
 	url = https://github.com/petRUShka/vim-opencl
-[submodule "bundle/vimproc"]
-	path = bundle/vimproc
-	url = https://github.com/Shougo/vimproc.vim
-[submodule "bundle/vimshell"]
-	path = bundle/vimshell
-	url = https://github.com/Shougo/vimshell.vim
