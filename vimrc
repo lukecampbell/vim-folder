@@ -61,6 +61,8 @@ nnoremap <leader>B :set nu<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <tab> %
 vnoremap <tab> %
+command! Wipe bufdo bd
+
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
