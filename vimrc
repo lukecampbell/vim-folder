@@ -63,13 +63,14 @@ nnoremap <leader>N :windo diffoff<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 command! Wipe bufdo bd
-
 command! Filepath let @+=expand('%:p')
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
 
+let g:indent_guides_start_level=2
+let g:indent_guides_guide_size=1
 
 " ctrl+p options
 let g:ctrlp_map='<Leader>p'
@@ -88,4 +89,12 @@ vnoremap <silent> # :<C-U>
   \gvy?<C-R><C-R>=substitute(
   \escape(@", '?\.*$^~['), '\_s\+', '\\_s\\+', 'g')<CR><CR>
   \gV:call setreg('"', old_reg, old_regtype)<CR>
+
+function! s:gdone()
+    windo diffo
+    only
+endfunction
+
+command! Gdone :call s:gdone()
+
 
