@@ -37,6 +37,7 @@ set hlsearch
 set laststatus=2
 set statusline=%f\ %y\ %{fugitive#statusline()}\ [%l,%c]
 set scrolloff=5
+set autoread
 nnoremap \] gt
 nnoremap \[ gT
 nnoremap <C-h> ^
