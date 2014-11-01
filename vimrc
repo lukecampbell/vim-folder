@@ -15,11 +15,11 @@ map <F5> :colorscheme Eclipse<CR>
 map <F6> :colorscheme VYLight<CR>
 map <F7> :colorscheme Railscasts<CR>
 map <F8> :colorscheme BClear<CR>
-map <F9> :colorscheme Molokai<CR>
+map <F9> :colorscheme molokai<CR>
 map <C-\> :rightbelow split<CR>:exec("tag ".expand("<cword>"))<CR>
 set nocompatible
 set cul
-colorscheme Molokai
+colorscheme molokai
 let mapleader = ","
 inoremap jj <ESC>
 inoremap jl <C-r>"
