@@ -51,6 +51,7 @@ nnoremap <leader>c :cq<cr>
 nnoremap <leader>k vf,hc
 nnoremap <leader>l vf'hc
 nnoremap <leader>L vf"hc
+nnoremap <leader>j :%!python -m json.tool<cr>
 nnoremap <leader>h :Hexmode<cr>
 nnoremap <leader>o :set nowrap<cr>
 nnoremap <leader>O :set wrap<cr>
