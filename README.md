@@ -1,12 +1,7 @@
 ## Installation
 
 ```
-cd ~
-git clone https://github.com/lukecampbell/vim-folder.git .vim
-cd .vim
-git submodule update --init
-cd ~
-ln -s .vim/vimrc .vimrc
+curl https://raw.githubusercontent.com/lukecampbell/vim-folder/master/install.sh | bash -stable
 ```
 
 ## Plugins
