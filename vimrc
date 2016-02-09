@@ -59,7 +59,7 @@ nnoremap <leader>b :set relativenumber<cr>
 nnoremap <leader>tn :tabnew<cr>
 nnoremap <leader>bn :bn<cr>
 nnoremap <leader>bd :bd<cr>
-nnoremap <leader>B :set nu<cr>
+nnoremap <leader>B :set norelativenumber<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <leader>N :windo diffoff<cr>
 nnoremap <tab> %
@@ -99,4 +99,14 @@ endfunction
 
 command! Gdone :call s:gdone()
 
+function! s:mvimres()
+    set lines=95
+    set columns=335
+endfunction
+
+command! MVimRes :call s:mvimres()
+
+set foldmethod=syntax
+set foldlevelstart=1
+let xml_syntax_folding=1
 
