@@ -62,6 +62,7 @@ nnoremap <leader>bd :bd<cr>
 nnoremap <leader>B :set norelativenumber<cr>
 nnoremap <leader>tb :TagbarToggle<cr>
 nnoremap <leader>N :windo diffoff<cr>
+nnoremap <leader>R :redraw!<cr>
 nnoremap <tab> %
 vnoremap <tab> %
 command! Wipe bufdo bd
