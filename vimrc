@@ -71,6 +71,7 @@ command! Filepath let @+=expand('%:p')
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
+let g:syntastic_javascript_checkers = ['jshint']
 
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
