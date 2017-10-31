@@ -29,3 +29,6 @@ curl https://raw.githubusercontent.com/lukecampbell/vim-folder/master/install.sh
 - `\]` Will go to the next tab
 - `\[` Will move to the previous tab
 
+## To Do
+
+- Add small write up on how to search working repository from within VIM.  ACK works, but not your preferred methodo.
