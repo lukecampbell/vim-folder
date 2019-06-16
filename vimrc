@@ -71,7 +71,7 @@ command! Filepath let @+=expand('%:p')
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
 let g:syntastic_check_on_open=1
-let g:syntastic_javascript_checkers = ['jshint']
+let g:syntastic_javascript_checkers = ['eslint']
 
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
@@ -111,4 +111,5 @@ command! MVimRes :call s:mvimres()
 set foldmethod=syntax
 set foldlevelstart=1
 let xml_syntax_folding=1
+let g:loaded_syntastic_java_javac_checker = 1
 
