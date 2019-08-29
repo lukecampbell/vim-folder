@@ -4,7 +4,7 @@ filetype on
 filetype indent on
 filetype plugin on
 set expandtab
-set guifont=Menlo:h12
+set guifont="Ubuntu Mono 11"
 set tabstop=4
 set shiftwidth=4
 map <S-Enter> i<CR><Esc>
