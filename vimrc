@@ -75,6 +75,8 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
+set guioptions-=m
+set guioptions-=T
 
 " ctrl+p options
 let g:ctrlp_map='<Leader>p'
