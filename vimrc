@@ -4,7 +4,7 @@ filetype on
 filetype indent on
 filetype plugin on
 set expandtab
-set guifont="Ubuntu Mono 11"
+set guifont=Monospace\ 11
 set tabstop=4
 set shiftwidth=4
 map <S-Enter> i<CR><Esc>
@@ -70,6 +70,8 @@ command! Filepath let @+=expand('%:p')
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%121v.\+/
+highlight TrailingWhitespace ctermbg=blue guibg=blue
+match TrailingWhitespace /\s\+$/
 let g:syntastic_check_on_open=1
 let g:syntastic_javascript_checkers = ['eslint']
 
