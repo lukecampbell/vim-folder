@@ -4,7 +4,7 @@ filetype on
 filetype indent on
 filetype plugin on
 set expandtab
-set guifont=Monospace\ 11
+set guifont=Monospace\ 9
 set tabstop=4
 set shiftwidth=4
 map <S-Enter> i<CR><Esc>
@@ -111,6 +111,7 @@ function! s:mvimres()
 endfunction
 
 command! MVimRes :call s:mvimres()
+command! ClearTrailingWhitespace :%s/\s\+$//
 
 set foldmethod=syntax
 set foldlevelstart=1
