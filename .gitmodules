@@ -85,3 +85,6 @@
 [submodule "bundle/fugitive-gitlab.vim"]
 	path = bundle/fugitive-gitlab.vim
 	url = https://github.com/shumphrey/fugitive-gitlab.vim
+[submodule "bundle/vim-toml"]
+	path = bundle/vim-toml
+	url = https://github.com/vimscript/toml
