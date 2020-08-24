@@ -13,12 +13,14 @@ syn match cdfKeywords /\cdimensions/
 syn match cdfKeywords /\cvariables/
 syn match cdfKeywords /\cdata/
 syn match cdfComments "//.*$"
+syn match cdfNumber /\<\d\+\>/
 syn region  cdfStrings start=+"+ skip=+\\\\\|\\"+ end=+"+
 
 hi def link cdfTypes Type
 hi def link cdfKeywords Statement
 hi def link cdfComments Comment
 hi def link cdfStrings String
+hi def link cdfNumber Number
 
 let b:current_syntax = "cdl"
 

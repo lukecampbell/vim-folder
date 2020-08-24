@@ -74,6 +74,9 @@ highlight TrailingWhitespace ctermbg=blue guibg=blue
 match TrailingWhitespace /\s\+$/
 let g:syntastic_check_on_open=1
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exe = 'eslint_d'
+let g:syntastic_javascript_eslint_args = "--cache"
+let g:syntastic_javascript_eslint_exec = '/bin/ls'
 
 let g:indent_guides_start_level=2
 let g:indent_guides_guide_size=1
@@ -118,3 +121,6 @@ set foldlevelstart=1
 let xml_syntax_folding=1
 let g:loaded_syntastic_java_javac_checker = 1
 
+let g:fugitive_gitlab_domains = ['http://git.axiom']
+let g:gitgutter_max_signs=9999
+runtime ftplugin/man.vim
