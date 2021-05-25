@@ -88,3 +88,6 @@
 [submodule "bundle/vim-toml"]
 	path = bundle/vim-toml
 	url = https://github.com/vimscript/toml
+[submodule "bundle/vim-haproxy"]
+	path = bundle/vim-haproxy
+	url = https://github.com/Joorem/vim-haproxy
