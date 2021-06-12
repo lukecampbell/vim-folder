@@ -74,7 +74,7 @@ highlight TrailingWhitespace ctermbg=blue guibg=blue
 match TrailingWhitespace /\s\+$/
 let g:syntastic_check_on_open=1
 let g:syntastic_javascript_checkers = ['eslint']
-let g:syntastic_javascript_eslint_exe = 'eslint_d'
+let g:syntastic_javascript_eslint_exe = '$(npm bin)/eslint_d'
 let g:syntastic_javascript_eslint_args = "--cache"
 let g:syntastic_javascript_eslint_exec = '/bin/ls'
 
