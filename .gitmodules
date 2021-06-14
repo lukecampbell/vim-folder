@@ -91,3 +91,6 @@
 [submodule "bundle/vim-haproxy"]
 	path = bundle/vim-haproxy
 	url = https://github.com/Joorem/vim-haproxy
+[submodule "bundle/rust.vim"]
+	path = bundle/rust.vim
+	url = https://github.com/rust-lang/rust.vim.git
