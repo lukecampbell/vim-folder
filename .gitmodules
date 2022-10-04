@@ -79,3 +79,6 @@
 [submodule "bundle/swift.vim"]
 	path = bundle/swift.vim
 	url = https://github.com/keith/swift.vim
+[submodule "bundle/vim-gas"]
+	path = bundle/vim-gas
+	url = https://github.com/Shirk/vim-gas
